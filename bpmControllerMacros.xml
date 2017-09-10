@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.3.2/MA.xsd" major_vers="3" minor_vers="3" stream_vers="2">
+	<Info datetime="2017-09-10T19:32:09" showfile="beat synced show" />
+	<Macro index="7" name="Pitch UP">
+		<Macroline index="0">
+			<text>SetVar $cmd = &quot;pitchUp&quot;</text>
+		</Macroline>
+		<Macroline index="1">
+			<text>SetVar $bpm = 5</text>
+		</Macroline>
+		<Macroline index="2">
+			<text>SetVar $duration = 0.5</text>
+		</Macroline>
+		<Macroline index="3">
+			<text>Go Plugin &quot;bpmController&quot;</text>
+		</Macroline>
+	</Macro>
+	<Macro index="6" name="Pitch DOWN">
+		<Macroline index="0">
+			<text>SetVar $cmd = &quot;pitchDown&quot;</text>
+		</Macroline>
+		<Macroline index="1">
+			<text>SetVar $bpm = 5</text>
+		</Macroline>
+		<Macroline index="2">
+			<text>SetVar $duration = 0.5</text>
+		</Macroline>
+		<Macroline index="3">
+			<text>Go Plugin &quot;bpmController&quot;</text>
+		</Macroline>
+	</Macro>
+	<Macro index="4" name="Set Master BPM">
+		<Macroline index="0">
+			<text>SetVar $bpm=(&quot;Master BPM [0.00 - 255.00]&quot;)</text>
+		</Macroline>
+		<Macroline index="1">
+			<text>SetVar $cmd=&quot;setBpm&quot;</text>
+		</Macroline>
+		<Macroline index="2">
+			<text>Go Plugin &quot;bpmController&quot;</text>
+		</Macroline>
+	</Macro>
+	<Macro index="3" name="+ 0.1 BPM">
+		<Macroline index="0">
+			<text>SetVar $cmd=&quot;incBpm&quot;</text>
+		</Macroline>
+		<Macroline index="1">
+			<text>SetVar $bpm=0.1</text>
+		</Macroline>
+		<Macroline index="2">
+			<text>Go Plugin &quot;bpmController&quot;</text>
+		</Macroline>
+	</Macro>
+	<Macro index="2" name="+ 1 BPM">
+		<Macroline index="0">
+			<text>SetVar $cmd=&quot;incBpm&quot;</text>
+		</Macroline>
+		<Macroline index="1">
+			<text>SetVar $bpm=1</text>
+		</Macroline>
+		<Macroline index="2">
+			<text>Go Plugin &quot;bpmController&quot;</text>
+		</Macroline>
+	</Macro>
+	<Macro index="1" name="- 1 BPM">
+		<Macroline index="0">
+			<text>SetVar $cmd=&quot;decBpm&quot;</text>
+		</Macroline>
+		<Macroline index="1">
+			<text>SetVar $bpm=1</text>
+		</Macroline>
+		<Macroline index="2">
+			<text>Go Plugin &quot;bpmController&quot;</text>
+		</Macroline>
+	</Macro>
+	<Macro index="0" name="- 0.1 BPM">
+		<Macroline index="0">
+			<text>SetVar $cmd=&quot;decBpm&quot;</text>
+		</Macroline>
+		<Macroline index="1">
+			<text>SetVar $bpm=0.1</text>
+		</Macroline>
+		<Macroline index="2">
+			<text>Go Plugin &quot;bpmController&quot;</text>
+		</Macroline>
+	</Macro>
+</MA>

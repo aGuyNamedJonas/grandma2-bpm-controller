@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.malighting.de/grandma2/xml/MA" xsi:schemaLocation="http://schemas.malighting.de/grandma2/xml/MA http://schemas.malighting.de/grandma2/xml/3.3.2/MA.xsd" major_vers="3" minor_vers="3" stream_vers="2">
+	<Info datetime="2017-09-10T18:56:29" showfile="beat synced show" />
+	<Plugin index="1" execute_on_load="0" name="bpmController" luafile="bpmController.lua" />
+</MA>
