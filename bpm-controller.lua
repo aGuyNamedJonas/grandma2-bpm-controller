@@ -70,7 +70,7 @@ function bpmController ()
     gma.feedback('Pitching down Master BPM by ' ..bpm.. ' BPM for ' ..duration.. ' sec')
     pitchDown(bpm, duration)
   elseif cmd == 'pitchUp' then
-    local duration = tonumber(gma.show.getvar('duration'))
+    local duration = gma.show.getvar('duration')
     local bpm = tonumber(gma.show.getvar('bpm'))
     gma.feedback('Pitching up Master BPM by ' ..bpm.. ' BPM for ' ..duration.. ' sec')
     pitchUp(bpm, duration)
