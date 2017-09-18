@@ -1,20 +1,23 @@
 # grandma2-bpmcontroller
+📼 Youtube: [**Beat Matched Shows in GrandMA2 (Showfile in Description) (11:53)**](https://youtu.be/baD365W3zQQ)   
+💽 Github: https://github.com/aGuyNamedJonas/grandma2-bpm-controller     
+----  
 Plugin for GrandMA2 (onPC) which will help you beat match your GrandMA2 show to for example a DJ set.  
 The trick here is that this plugin gives you fine grained control over a Speed Master:  
 * Set speed master to a certain BPM
 * Increase / Decrease speed master by BPM (=beats per minute) increments (+0.1 BPM / -0.1 BPM / +1 BPM / etc.)
 * Temporarily slow down / speed up Speed Master (configurable)
 
-## Getting started
+## Install plugin in your show
 Getting started with this plugin is easy, just follow these simple steps:  
-1. Add speed master called "Master BPM" to your show
-* Make sure the max speed of "Master BPM" is 225 BPM (default)
-* [Download this project as a ZIP file](https://github.com/aGuyNamedJonas/grandma2-bpm-controller/archive/master.zip)
-* Copy the contents of zip file to the `importexport` show folder  
+1. [Download this project as a ZIP file](https://github.com/aGuyNamedJonas/grandma2-bpm-controller/archive/master.zip)
+2. Copy the contents of zip file to the `importexport` show folder  
 (Usually `C:\ProgramData\MA Lighting Technologies\grandma\gma2_V_3.3.2\importexport`)
-* Import the **bpmController** plugin into GrandMA2:  
+3. Add speed master called "Master BPM" to your show
+4. Make sure the max speed of "Master BPM" is 225 BPM (default)
+5. Import the **bpmController** plugin into GrandMA2:  
 `Import "bpmController" At Plugin 2`
-* Import the example macros into GrandMA2:  
+6. Import the example macros into GrandMA2:  
 `Import "bpmControllerMacros" At Macro 1`
 
 That's it - happy beat-matching! :)
